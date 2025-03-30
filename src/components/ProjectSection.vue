@@ -111,6 +111,16 @@ const Projects = ref([
         webUrl:'https://github.com/LadjamatliAbusood/Point-of-Sale-desktop-app'
 
     },
+    {
+        id:6,
+        category:'web development',
+        image: new URL('@/assets/sushi.png', import.meta.url).href,
+        title:'Personal Project',
+        description:'Sushi Website',
+        technologies: ['Vite','CSS'],
+        webUrl:'https://github.com/LadjamatliAbusood/sushi-web'
+
+    },
  
 ]);
 
