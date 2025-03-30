@@ -63,7 +63,7 @@ const Projects = ref([
     {
         id:1,
         category:'web development',
-        image: 'src/assets/pos.png',
+        image: new URL('@/assets/pos.png', import.meta.url).href,
         title:'Personal Project',
         description:'Point of Sale (POS) and Inventory Management system designed specifically for gold stores.',
         technologies: ['Laravel','Mysql','JS','Mysql','Bootstrap'],
@@ -73,7 +73,7 @@ const Projects = ref([
     {
         id:2,
         category:'Mobile App',
-        image: 'src/assets/lan.png',
+        image: new URL('@/assets/lan.png', import.meta.url).href,
         title:'Capstone',
         description:'A Food Quality Image Classification for Vegetables using Android Mobile Application',
         technologies: ['Java','ML (Teachable Machine)','HTML','Bootstrap'],
@@ -83,7 +83,7 @@ const Projects = ref([
     {
         id:3,
         category:'Mobile App',
-        image: 'src/assets/and.png',
+        image: new URL('@/assets/and.png', import.meta.url).href,
         title:'Capstone',
         description:'A Mobile Assistive Application of Philippine Currency Recognition For The Visually Impaired',
         technologies: ['JAVA','ML (Teachable Machine)','Python'],
@@ -93,7 +93,7 @@ const Projects = ref([
     {
         id:4,
         category:'web development',
-        image: 'src/assets/cake.png',
+        image: new URL('@/assets/cake.png', import.meta.url).href,
         title:'Software Engineering',
         description:'Koffi Sugar Heist Cake Booking System',
         technologies: ['Jave','PHP','Mysql','Itexmo'],
@@ -104,7 +104,7 @@ const Projects = ref([
     {
         id:5,
         category:'Desktop App',
-        image: 'src/assets/desktop.png',
+        image: new URL('@/assets/desktop.png', import.meta.url).href,
         title:'Personal Project',
         description:'Desktop Application POS  with Networking',
         technologies: ['JAVA','Mysql'],
