@@ -44,7 +44,9 @@
                 class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"
               ></span>
               <span class="relative flex items-center justify-center text-white"
-                >Hire Me</span
+                ><a href="https://ladjamatliabusood.github.io/AJLPortfolio/"
+                  >Other Portfolio</a
+                ></span
               >
             </button>
             <button
@@ -63,7 +65,7 @@
                 </div>
                 <a
                   href="/src/assets/pdf/LADJAMATLICV.pdf"
-                  download="LADJAMATLICV.pdf"
+                  download="LADJAMATLI_CV.pdf"
                   class="pl-2 text-primary"
                   >Download resume</a
                 >
