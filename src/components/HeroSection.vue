@@ -56,18 +56,12 @@
                 class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative"
               >
                 <div class="svg-container">
-                  <img
-                    src="/src/assets/download.svg"
-                    alt="download"
-                    class="w-5 h-5 text-primary"
-                  />
                   <div class="download-loader text-white hidden"></div>
                 </div>
                 <a
-                  href="/src/assets/pdf/LADJAMATLICV.pdf"
-                  download="LADJAMATLI_CV.pdf"
+                  href="https://drive.google.com/file/d/1yq2_HE1kV-EhOG-02zRKA8eKNwcTdb24/view?usp=drive_link"
                   class="pl-2 text-primary"
-                  >Download resume</a
+                  >Resume</a
                 >
               </div>
             </button>
