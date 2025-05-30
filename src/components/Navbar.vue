@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-between items-center p-6 bg-opacity-50 relative z-20"
+    class="flex justify-between items-center p-2 bg-opacity-50 relative z-20"
   >
     <div class="text-gray-900 text-3xl font-bold"></div>
     <!-- Moble Toggle Button -->
