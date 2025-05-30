@@ -1,6 +1,6 @@
 <template>
   <section class="text-white mt-20" id="contact">
-    <h2 class="text-4xl font-bold text-white text-center mb-4 px-4 xl:pl-16">
+    <h2 class="text-4xl font-bold text-gray-600 text-center mb-4 px-4 xl:pl-16">
       Let's
       <span
         class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
@@ -15,36 +15,42 @@
           data-aos="zoom-in-up"
         >
           <div class="flex items-center space-x-4">
-            <div
-              class="p-2 bg-[#111a3e] w-[50px] h-[46px] flex justify-center items-center rounded-full border border-[#111a3e] backdrop-blur-md"
-            >
-              <img src="@/assets/gmail.png" alt="new-post" class="w-6" />
+            <div class="p-2">
+              <img
+                src="@/assets/gmail.png"
+                alt="new-post"
+                class="filter invert brightness-100 w-9"
+              />
             </div>
-            <div class="text-white">
+            <div class="text-gray-600">
               <h4>Email</h4>
               <p>ladjamatli5@gmail.com</p>
             </div>
           </div>
 
           <div class="flex items-center space-x-4">
-            <div
-              class="p-2 bg-[#111a3e] w-[50px] h-[46px] flex justify-center items-center rounded-full border border-[#111a3e] backdrop-blur-md"
-            >
-              <img src="@/assets/phone.png" alt="phone" class="w-6" />
+            <div class="p-2">
+              <img
+                src="@/assets/phone.png"
+                alt="phone"
+                class="filter invert brightness-100 w-9"
+              />
             </div>
-            <div class="text-white">
+            <div class="text-gray-600">
               <h4>Phone</h4>
               <p>+63 962 450 1604</p>
             </div>
           </div>
 
           <div class="flex items-center space-x-4">
-            <div
-              class="p-2 bg-[#111a3e] w-[50px] h-[46px] flex justify-center items-center rounded-full border border-[#111a3e] backdrop-blur-md"
-            >
-              <img src="@/assets/linked.png" alt="linkedin" class="w-6" />
+            <div class="p-2">
+              <img
+                src="@/assets/linked.png"
+                alt="linkedin"
+                class="filter invert brightness-100 w-9"
+              />
             </div>
-            <div class="text-white">
+            <div class="text-gray-600">
               <h4>LinkedIn</h4>
               <a
                 href="https://www.linkedin.com/in/ajladjamatli/"
@@ -55,12 +61,14 @@
           </div>
 
           <div class="flex items-center space-x-4">
-            <div
-              class="p-2 bg-[#111a3e] w-[50px] h-[46px] flex justify-center items-center rounded-full border border-[#111a3e] backdrop-blur-md"
-            >
-              <img src="@/assets/ig.png" alt="linkedin" class="w-6" />
+            <div class="p-2">
+              <img
+                src="@/assets/ig.png"
+                alt="linkedin"
+                class="filter invert brightness-100 w-9"
+              />
             </div>
-            <div class="text-white">
+            <div class="text-gray-600">
               <h4>Instagram</h4>
               <a
                 href="https://www.instagram.com/itshkn199x/"

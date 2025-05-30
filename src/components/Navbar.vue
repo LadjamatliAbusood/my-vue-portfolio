@@ -2,7 +2,7 @@
   <header
     class="flex justify-between items-center p-6 bg-opacity-50 relative z-20"
   >
-    <div class="text-white text-3xl font-bold"></div>
+    <div class="text-gray-900 text-3xl font-bold"></div>
     <!-- Moble Toggle Button -->
     <div class="md:hidden z-30">
       <button
@@ -30,7 +30,7 @@
         <li v-for="item in Menu" :key="item.name">
           <a
             :href="item.href"
-            class="block text-white transition hover:text-primary ease-linear text-2xl md:text-lg"
+            class="block text-gray-900 transition hover:text-primary ease-linear text-2xl md:text-lg"
             @click="scrollToSection(item.href)"
           >
             {{ item.name }}

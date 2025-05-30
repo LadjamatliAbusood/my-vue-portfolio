@@ -2,8 +2,13 @@
   <section class="text-white mt-20" id="project">
     <div class="px-4 xl:pl-16">
       <div class="mb-4 md:flex md:justify-between xl:pr-16">
-        <h2 class="text-4xl font-bold text-white">My Project</h2>
-        <div class="flex space-x-4 mb-4 mt-5 md:nt-0">
+        <h2 class="text-4xl font-bold">
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary"
+            >Project</span
+          >
+        </h2>
+        <div class="flex space-x-4 mb-4 mt-5 md:nt-0 text-gray-600">
           <button
             class="hover:text-pri"
             v-for="category in [
@@ -59,26 +64,20 @@
           </div>
 
           <div
-            class="text-white rounded-b-xl mt-3 bg-[#111a3e] shadow-lg border border-[#1f1641] py-6 px-4"
+            class="text-gray-600 rounded-b-xl mt-3 bg-[#fdfdfd] shadow-lg border border-[gray-200] py-6 px-4"
           >
             <h3 class="text-lg font-semibold uppercase lg:text-xl">
               {{ project.title }}
             </h3>
-            <p class="text-[#ADB7BE]">{{ project.description }}</p>
+            <p class="text-gray-600">{{ project.description }}</p>
 
             <div class="flex flex-wrap p-2.5">
               <div
                 v-for="technology in project.technologies"
                 :key="technology"
-                class="text-center ml-1 mt-1 rounded-3xl bg-[#111827]"
-                style="
-                  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-                  border: 1px solid #111827;
-                  backdrop-filter: blur(9px);
-                  -webkit-backdrop-filter: blur(9px);
-                "
+                class="text-center"
               >
-                <p class="px-1 py-2">{{ technology }}</p>
+                <p class="px-1 py-2">{{ technology }} |</p>
               </div>
             </div>
           </div>

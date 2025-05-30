@@ -18,7 +18,7 @@
         <div class="lg:py-6">
           <div class="text-center lg:text-left">
             <h1
-              class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl"
+              class="pt-4 text-gray-600 font-bold text-4xl md:text-5xl lg:text-6xl"
             >
               Hi, I'm
               <span
@@ -29,7 +29,7 @@
             </h1>
           </div>
           <p
-            class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl"
+            class="text-gray-600 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
             Developer with experience in developing smartphone applications,
             desktop applications, and deploying websites.
