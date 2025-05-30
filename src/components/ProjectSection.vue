@@ -124,7 +124,7 @@ const Projects = ref([
     image: new URL("@/assets/cake.png", import.meta.url).href,
     title: "Software Engineering",
     description: "Koffi Sugar Heist Cake Booking System",
-    technologies: ["Jave", "PHP", "Mysql", "Itexmo"],
+    technologies: ["Java", "PHP", "Mysql", "Itexmo SMS API"],
     webUrl: "https://github.com/LadjamatliAbusood/kofissugarheist",
   },
 

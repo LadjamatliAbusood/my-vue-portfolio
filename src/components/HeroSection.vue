@@ -26,8 +26,8 @@
           <p
             class="text-gray-600 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            Developer with experience in developing smartphone applications,
-            desktop applications, and deploying websites.
+            Full stack developer with experience in developing smartphone
+            applications, desktop applications, and deploying websites.
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"

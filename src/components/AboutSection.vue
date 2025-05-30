@@ -72,7 +72,7 @@
             <h3 class="text-gray-600 font-bold text-xl sm:text-2xl lg:text-3xl">
               +3
             </h3>
-            <p class="text-sm sm:text-base text-gray-300">Experience</p>
+            <p class="text-sm sm:text-base text-gray-600">Experience</p>
           </div>
         </div>
       </div>
