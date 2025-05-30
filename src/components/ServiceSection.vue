@@ -23,7 +23,7 @@
         </div>
         <div class="text-center">
           <h3
-            class="pt-8 text-lg font-semibold uppercase text-transparent text-gray-600 lg:text-xl"
+            class="pt-8 text-lg font-semibold uppercase text-gray-600 lg:text-xl"
           >
             {{ service.name }}
           </h3>
