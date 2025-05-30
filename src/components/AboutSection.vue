@@ -1,5 +1,5 @@
 <template>
-  <section class="text-white mt-18" id="about">
+  <section class="text-gray-600 mt-18" id="about">
     <div class="absolute z-0 top-[93rem] inset-x-0 h-64 flex items-start">
       <div
         class="h-24 w-64 bg-gradient-to-br from-primary via-secondary blur-2xl to-[#570cac] opacity-20"
@@ -11,10 +11,7 @@
       <!-- Left side -->
       <div data-aos="flip-right">
         <h2 class="text-4xl font-bold text-gray-600 text-left mb-8">
-          <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary"
-            >Education</span
-          >
+          Education
         </h2>
         <div class="space-y-8 py-8">
           <div
@@ -31,7 +28,7 @@
             </div>
             <div class="w-3/4 pl-4">
               <h3
-                class="text-2xl font-semibold uppercase text-transparent text-gray-600 lg:text-xl"
+                class="text-2xl font-semibold uppercase text-gray-600 lg:text-xl"
               >
                 {{ element.School }}
               </h3>
@@ -49,11 +46,7 @@
         <h2
           class="text-4xl font-bold text-gray-600 md:text-center text-left mb-4"
         >
-          <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary"
-            >About</span
-          >
-          Me
+          About Me
         </h2>
         <p class="text-gray-600 pt-8 text-center lg:text-left mx-auto max-w-xl">
           I like diving into the latest trends in technology. In my free time, I
@@ -79,7 +72,7 @@
             <h3 class="text-gray-600 font-bold text-xl sm:text-2xl lg:text-3xl">
               +3
             </h3>
-            <p class="text-sm sm:text-base text-gray-600">Experience</p>
+            <p class="text-sm sm:text-base text-gray-300">Experience</p>
           </div>
         </div>
       </div>
@@ -93,7 +86,7 @@ const education = ref([
   {
     id: 1,
     School: "Western Mindanao State University",
-    Program: " BS Information Technology",
+    Program: "BS Information Technology",
     year: "2023",
   },
 ]);

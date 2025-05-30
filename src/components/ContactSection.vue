@@ -1,11 +1,7 @@
 <template>
   <section class="text-white mt-20" id="contact">
     <h2 class="text-4xl font-bold text-gray-600 text-center mb-4 px-4 xl:pl-16">
-      Let's
-      <span
-        class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
-        >Connect</span
-      >
+      Let's Connect
     </h2>
 
     <div class="container p-5 flex justify-center">

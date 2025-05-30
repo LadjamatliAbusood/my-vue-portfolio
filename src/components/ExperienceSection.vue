@@ -14,17 +14,14 @@
       <!-- Left Side -->
       <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[80%]">
         <h2 class="text-4xl font-bold text-gray-600 text-left mb-4">
-          <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
-            >Skills</span
-          >
+          <span class="text-gray-600">Skills</span>
         </h2>
         <div class="mt-8" v-for="skills in Skills" :key="skills.id">
           <div class="flex items-end justify-between" data-aos="fade-right">
-            <h4 class="font-semibold uppercase text-gray-600 text-lg">
+            <h4 class="font-semibold uppercase text-gray-600">
               {{ skills.name }}
             </h4>
-            <h3 class="text-2xl font-bold text-gray-600">{{ skills.width }}</h3>
+            <h3 class="text-2xl font-bold text-white">{{ skills.width }}</h3>
           </div>
           <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
             <div
@@ -39,10 +36,7 @@
         <h2
           class="text-4xl font-bold text-gray-600 text-left mb-8 md:text-center md:mt-0 mt-8"
         >
-          <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary"
-            >Experience</span
-          >
+          Experience
         </h2>
         <div class="space-y-8 py-8" data-aos="fade-left">
           <div
@@ -58,9 +52,7 @@
               />
             </div>
             <div class="w-3/4 pl-4">
-              <h3
-                class="text-2xl font-semibold uppercase text-trasparent bg-clip-text text-gray-600"
-              >
+              <h3 class="text-2xl font-semibold uppercase text-gray-600">
                 {{ element.role }}
               </h3>
               <p class="text-gray-600">{{ element.company }}</p>

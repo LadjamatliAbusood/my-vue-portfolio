@@ -20,12 +20,7 @@
             <h1
               class="pt-4 text-gray-600 font-bold text-4xl md:text-5xl lg:text-6xl"
             >
-              Hi, I'm
-              <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500"
-              >
-                Abusood </span
-              >😁
+              Hi, I'm <span class="text-gray-900">AJ</span> 😁
             </h1>
           </div>
           <p

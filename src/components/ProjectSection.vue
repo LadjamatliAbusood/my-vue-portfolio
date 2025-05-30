@@ -3,10 +3,7 @@
     <div class="px-4 xl:pl-16">
       <div class="mb-4 md:flex md:justify-between xl:pr-16">
         <h2 class="text-4xl font-bold">
-          <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-primary"
-            >Project</span
-          >
+          <span class="text-gray-600">Project</span>
         </h2>
         <div class="flex space-x-4 mb-4 mt-5 md:nt-0 text-gray-600">
           <button
