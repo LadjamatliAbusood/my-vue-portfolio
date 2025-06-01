@@ -20,14 +20,20 @@
             <h1
               class="pt-4 text-gray-600 font-bold text-4xl md:text-5xl lg:text-6xl"
             >
-              Hi, I'm <span class="text-gray-900">AJ</span> 😁
+              Hi, I'm AJ 😁
             </h1>
           </div>
           <p
             class="text-gray-600 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            Full stack developer with experience in developing smartphone
-            applications, desktop applications, and deploying websites.
+            As a Full Stack Developer, I specialize in building android app and
+            deploying dynamic, responsive websites. Here's a link to my v1
+            portfolio
+            <a
+              href="https://ladjamatliabusood.github.io/AJLPortfolio/"
+              class="text-primary hover:text-primary/80"
+              >@ajladjamatli</a
+            >
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -38,9 +44,18 @@
               <span
                 class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"
               ></span>
+              <div class="svg-container mr-2">
+                <div class="download-loader" style="width: 25px; height: 25px">
+                  <img
+                    src="@/assets/coffee.png"
+                    alt=""
+                    class="filter invert brightness-0"
+                  />
+                </div>
+              </div>
               <span class="relative flex items-center justify-center text-white"
-                ><a href="https://ladjamatliabusood.github.io/AJLPortfolio/"
-                  >Other Portfolio</a
+                ><a href="https://buymeacoffee.com/ajladjamatli"
+                  >Buy me a coffee</a
                 ></span
               >
             </button>
@@ -51,7 +66,16 @@
                 class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative"
               >
                 <div class="svg-container">
-                  <div class="download-loader text-white hidden"></div>
+                  <div
+                    class="download-loader"
+                    style="width: 25px; height: 25px"
+                  >
+                    <img
+                      src="@/assets/dwnld.png"
+                      alt=""
+                      class="filter invert brightness-50"
+                    />
+                  </div>
                 </div>
                 <a
                   href="https://drive.google.com/file/d/1yq2_HE1kV-EhOG-02zRKA8eKNwcTdb24/view?usp=drive_link"
