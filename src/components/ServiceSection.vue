@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-600 mt-20" id="services ">
+  <section class="text-gray-600 mt-20" id="services">
     <div class="px-4 xl:pl-16">
       <h2 class="text-4xl font-bold mb-4">Services</h2>
     </div>
@@ -32,14 +32,33 @@
           >
             {{ service.description }}
           </p>
+
+          <button
+            v-if="service.id === 3"
+            @click="openModal(service.modalImage)"
+            class="cursor-pointer text-primary border border-primary px-4 mt-4 py-2 rounded-full relative group w-full sm:w-max"
+          >
+            <div
+              class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative text-xs"
+            >
+              TESDA NC II CSS
+            </div>
+          </button>
         </div>
       </div>
     </div>
+
+    <Modal
+      :visible="ShowModal"
+      :image="selectedImage"
+      @close="ShowModal = false"
+    />
   </section>
 </template>
 
 <script setup>
 import { ref } from "vue";
+import Modal from "@/components/Modal.vue";
 const services = ref([
   {
     id: 1,
@@ -58,6 +77,7 @@ const services = ref([
   {
     id: 3,
     icon: new URL("@/assets/techsupport.png", import.meta.url).href,
+    modalImage: new URL("@/assets/img3.png", import.meta.url).href,
     name: "Technical Support",
     description:
       "Knowledgeable in troubleshooting computer hardware, software, and network issues.",
@@ -83,4 +103,13 @@ const services = ref([
     description: "Video editing, color correction to enhance your content.",
   },
 ]);
+
+const ShowModal = ref(false);
+const selectedImage = ref("");
+
+function openModal(image) {
+  console.log("openModal called");
+  selectedImage.value = image;
+  ShowModal.value = true;
+}
 </script>

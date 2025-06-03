@@ -21,7 +21,7 @@
             <h4 class="font-semibold uppercase text-gray-600">
               {{ skills.name }}
             </h4>
-            <h3 class="text-2xl font-bold text-white">{{ skills.width }}</h3>
+            <h3 class="text-2xl font-bold text-gray-600">{{ skills.width }}</h3>
           </div>
           <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
             <div
@@ -76,18 +76,23 @@ const Skills = ref([
   },
   {
     id: 2,
-    name: "Java",
-    width: "55%",
+    name: "Java (ANDROID)",
+    width: "65%",
   },
   {
     id: 3,
     name: "PHP",
-    width: "65%",
+    width: "60%",
   },
   {
     id: 4,
-    name: "Mysql",
-    width: "55%",
+    name: "Mysql & SQL Server",
+    width: "45%",
+  },
+  {
+    id: 5,
+    name: "Laravel",
+    width: "35%",
   },
 ]);
 
