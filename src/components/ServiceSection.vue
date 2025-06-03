@@ -33,7 +33,7 @@
             {{ service.description }}
           </p>
 
-          <button
+          <!-- <button
             v-if="service.id === 3"
             @click="openModal(service.modalImage)"
             class="cursor-pointer text-primary border border-primary px-4 mt-4 py-2 rounded-full relative group w-full sm:w-max"
@@ -43,7 +43,7 @@
             >
               TESDA NC II CSS
             </div>
-          </button>
+          </button> -->
         </div>
       </div>
     </div>
