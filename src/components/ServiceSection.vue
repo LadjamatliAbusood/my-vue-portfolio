@@ -10,7 +10,7 @@
         v-for="service in services"
         :key="service.id"
         data-aos="fade-up"
-        class="px-8 py-12 rounded-xl bg-[#fdfdfd] shadow-lg border border-[gray-200]"
+        class="px-8 py-12 rounded-xl bg-[#fdfdfd] shadow-lg border border-gray-200"
       >
         <div class="mx-auto h-24 text-center xl:h-28 xl:w-28">
           <div>
@@ -33,32 +33,28 @@
             {{ service.description }}
           </p>
 
-          <!-- <button
+          <button
             v-if="service.id === 3"
-            @click="openModal(service.modalImage)"
             class="cursor-pointer text-primary border border-primary px-4 mt-4 py-2 rounded-full relative group w-full sm:w-max"
           >
             <div
               class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative text-xs"
             >
-              TESDA NC II CSS
+              <a
+                href="https://drive.google.com/file/d/1Nxontk7XZCd2LlVAoMJXlnxqpvRIA0wH/view?usp=drive_link"
+              >
+                TESDA NC II CSS</a
+              >
             </div>
-          </button> -->
+          </button>
         </div>
       </div>
     </div>
-
-    <Modal
-      :visible="ShowModal"
-      :image="selectedImage"
-      @close="ShowModal = false"
-    />
   </section>
 </template>
 
 <script setup>
 import { ref } from "vue";
-import Modal from "@/components/Modal.vue";
 const services = ref([
   {
     id: 1,
@@ -103,13 +99,4 @@ const services = ref([
     description: "Video editing, color correction to enhance your content.",
   },
 ]);
-
-const ShowModal = ref(false);
-const selectedImage = ref("");
-
-function openModal(image) {
-  console.log("openModal called");
-  selectedImage.value = image;
-  ShowModal.value = true;
-}
 </script>
