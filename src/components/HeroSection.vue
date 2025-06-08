@@ -78,7 +78,7 @@
                   </div>
                 </div>
                 <a
-                  href="https://drive.google.com/file/d/1USdiNA0GQvNJUX1X7qJl6x8jCVWYiNSU/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/17g9K4jQHRWsbMQpgNTXcB2L8-WHfJZFi/view?usp=drive_link"
                   class="pl-2 text-primary"
                   >Resume</a
                 >

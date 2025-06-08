@@ -4,7 +4,7 @@
       <h2 class="text-4xl font-bold mb-4">Services</h2>
     </div>
     <div
-      class="py-8 xl:px px-4 sm:py-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
+      class="py-8 xl:px px-4 sm:py-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-4"
     >
       <div
         v-for="service in services"
@@ -35,6 +35,7 @@
 
           <button
             v-if="service.id === 3"
+            popovertarget="popoover-target"
             class="cursor-pointer text-primary border border-primary px-4 mt-4 py-2 rounded-full relative group w-full sm:w-max"
           >
             <div
@@ -83,20 +84,20 @@ const services = ref([
     icon: new URL("@/assets/computer.png", import.meta.url).href,
     name: "Computer Literate",
     description:
-      "Have knowledge in Microsoft Office such as Microsoft Word, Excel and Power Point Presentation.",
+      "Have knowledge in Microsoft Office such as Microsoft Word, Excel, Power Point, AI, Internet etc.",
   },
-  {
-    id: 5,
-    icon: new URL("@/assets/ps.png", import.meta.url).href,
-    name: "Image Editing",
-    description:
-      "Photo retouching, manipulation, and enhancement using advanced editing tools.",
-  },
-  {
-    id: 6,
-    icon: new URL("@/assets/video.png", import.meta.url).href,
-    name: "Video Editing",
-    description: "Video editing, color correction to enhance your content.",
-  },
+  // {
+  //   id: 5,
+  //   icon: new URL("@/assets/ps.png", import.meta.url).href,
+  //   name: "Image Editing",
+  //   description:
+  //     "Photo retouching, manipulation, and enhancement using advanced editing tools.",
+  // },
+  // {
+  //   id: 6,
+  //   icon: new URL("@/assets/video.png", import.meta.url).href,
+  //   name: "Video Editing",
+  //   description: "Video editing, color correction to enhance your content.",
+  // },
 ]);
 </script>
